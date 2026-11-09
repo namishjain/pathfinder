@@ -284,7 +284,7 @@ function App() {
           <div className="page-width about-grid">
             <div className="about-photo-wrap">
               <img src={newPhoto4} alt="Children learning and taking part in school life" />
-              <div className="photo-caption"><span>01 / 05</span> Learning, together</div>
+              <div className="photo-caption">Learning together</div>
               <span className="about-doodle" aria-hidden="true">made with care</span>
             </div>
             <div className="about-copy">

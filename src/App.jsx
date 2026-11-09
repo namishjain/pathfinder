@@ -15,14 +15,14 @@ import {
   X,
 } from 'lucide-react'
 import { useForm } from 'react-hook-form'
-import image1 from '../externalsrc/1.jpeg'
-import image2 from '../externalsrc/2.jpeg'
-import image3 from '../externalsrc/3.jpeg'
-import image4 from '../externalsrc/4.jpeg'
-import image5 from '../externalsrc/5.jpeg'
-import image6 from '../externalsrc/6.jpeg'
-import image7 from '../externalsrc/7.jpeg'
-import image8 from '../externalsrc/8.jpeg'
+import newPhoto1 from '../newphotos/WhatsApp Image 2026-11-09 at 23.12.46.jpeg'
+import newPhoto2 from '../newphotos/WhatsApp Image 2026-11-09 at 23.12.47 (1).jpeg'
+import newPhoto3 from '../newphotos/WhatsApp Image 2026-11-09 at 23.12.47 (2).jpeg'
+import newPhoto4 from '../newphotos/WhatsApp Image 2026-11-09 at 23.12.47.jpeg'
+import newPhoto5 from '../newphotos/WhatsApp Image 2026-11-09 at 23.12.48 (1).jpeg'
+import newPhoto6 from '../newphotos/WhatsApp Image 2026-11-09 at 23.12.48.jpeg'
+import newPhoto7 from '../newphotos/WhatsApp Image 2026-11-09 at 23.12.49 (1).jpeg'
+import newPhoto8 from '../newphotos/WhatsApp Image 2026-11-09 at 23.12.49 (2).jpeg'
 import './App.css'
 
 const navigation = [
@@ -34,7 +34,7 @@ const navigation = [
   ['Contact', '#contact'],
 ]
 
-const photos = [image1, image2, image3, image4, image5, image6, image7, image8]
+const photos = [newPhoto1, newPhoto2, newPhoto3, newPhoto4, newPhoto5, newPhoto6, newPhoto7, newPhoto8]
 
 const stats = [
   { value: '350+', label: 'registered students', icon: Users },
@@ -237,13 +237,13 @@ function App() {
               transition={{ duration: 0.8, delay: 0.12 }}
             >
               <div className="hero-photo hero-photo-main">
-                <img src={image2} alt="Pathfinder school children and community" />
+                <img src={newPhoto2} alt="Pathfinder school children and community" />
               </div>
               <div className="hero-photo hero-photo-small">
-                <img src={image5} alt="A moment from the Pathfinder school community" />
+                <img src={newPhoto3} alt="A moment from the Pathfinder school community" />
               </div>
               <div className="hero-photo hero-photo-stamp">
-                <img src={image7} alt="Learning at Pathfinder English Medium School" />
+                <img src={newPhoto5} alt="Learning at Pathfinder English Medium School" />
               </div>
               <div className="hero-stat">
                 <span className="hero-stat-icon"><Users size={20} /></span>
@@ -283,8 +283,8 @@ function App() {
         <section className="about-section section-pad" id="about">
           <div className="page-width about-grid">
             <div className="about-photo-wrap">
-              <img src={image4} alt="Children learning and taking part in school life" />
-              <div className="photo-caption"><span>01 / 08</span> Learning, together</div>
+              <img src={newPhoto4} alt="Children learning and taking part in school life" />
+              <div className="photo-caption"><span>01 / 05</span> Learning, together</div>
               <span className="about-doodle" aria-hidden="true">made with care</span>
             </div>
             <div className="about-copy">
@@ -348,7 +348,7 @@ function App() {
               <a className="text-link" href="#contact">Talk with our school <ArrowRight size={16} /></a>
             </div>
             <div className="learning-image">
-              <img src={image6} alt="Students taking part in a Pathfinder school activity" />
+              <img src={newPhoto1} alt="Students taking part in a Pathfinder school activity" />
               <div className="learning-note"><span>Learning with purpose</span><BookOpen size={19} /></div>
             </div>
           </div>
